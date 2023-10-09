@@ -32,10 +32,6 @@ Please refer to our [Privacy Policy](https://samrat-sarkar.github.io/LocalNet/Pr
 
 Contributions are welcome! Feel free to open issues and pull requests.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ---
 
 **Note:** This extension is not officially affiliated with any specific network provider. It is an independent project created by me to enhance user experience for internet login processes.
