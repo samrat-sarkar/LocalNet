@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Local Net</title>
+      <style>
+         body {
+         font-family: 'Arial', sans-serif;
+         background-color: #f8f9fa;
+         color: #FE6500;
+         margin: 20px;
+         padding: 20px;
+         width: 300px;
+         max-width: 100%;
+         margin: 0 auto;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+         border-radius: 10px;
+         transition: background-color 0.3s ease;
+         }
+         footer{
+         text-align: center;
+         }
+         a{
+         text-decoration: none;
+         color: green;
+         }
+         h1 {
+         font-size: 24px;
+         margin-bottom: 20px;
+         color: #FE6500;
+         text-align: center;
+         }
+         .input-group {
+         margin-bottom: 15px;
+         }
+         input[type="text"],
+         input[type="password"] {
+         width: 100%;
+         padding: 12px;
+         font-size: 16px;
+         border: 1px solid #ced4da;
+         border-radius: 5px;
+         margin-top: 10px;
+         box-sizing: border-box;
+         }
+         .btn,
+         .loginbtn {
+         width: 100%;
+         padding: 12px;
+         font-size: 16px;
+         background-color: #FE6500;
+         color: #ffffff;
+         border: none;
+         border-radius: 5px;
+         cursor: pointer;
+         margin-top: 10px;
+         transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+         }
+         .btn:active,
+         .loginbtn:active {
+         transform: scale(0.95);
+         }
+         .btn:hover,
+         .loginbtn:hover {
+         background-color: #0056b3;
+         transform: translateY(-5px);
+         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+         }
+         .message,
+         .error-message {
+         font-size: 16px;
+         margin-top: 10px;
+         text-align: center;
+         transition: opacity 0.3s ease;
+         }
+         .error-message {
+         color: red;
+         }
+         #loginForm,
+         #loginButtonContainer {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         animation: fadeIn 0.5s ease;
+         }
+         @keyframes fadeIn {
+         from {
+         opacity: 0;
+         transform: translateY(-20px);
+         }
+         to {
+         opacity: 1;
+         transform: translateY(0);
+         }
+         }
+      </style>
+   </head>
+   <body>
+      <img src="images/logo.png" alt="logo" width="50" height="50" style="display: block; margin-left: auto; margin-right: auto;">
+      <h1>Local Net</h1>
+      <div class="input-group" id="loginForm">
+         <input type="text" id="uid" placeholder="Enter UID" required>
+         <input type="password" id="password" placeholder="Enter Password" required>
+         <button class="btn" id="saveButton">Save</button>
+         <div class="footer">
+            <p>Design and developed by <a href="https://samratsarkar.in/">Samrat Sarkar</a></p>
+         </div>
+      </div>
+      <div class="input-group" id="loginButtonContainer" style="display: none;">
+         <button class="btn" id="openloginpageButton">Open Login Page</button>
+         <button class="btn" id="loginButton">Auto Login</button>
+         <button class="btn" id="clearStorageButton">Reset All</button>
+         <div class="footer">
+            <p>Design and developed by <a href="https://samratsarkar.in/">Samrat Sarkar</a></p>
+         </div>
+      </div>
+      <div class="message" id="successMessage" style="display: none; color: green;">Data saved successfully !</div>
+      <div class="error-message" id="errorMessage" style="display: none;"></div>
+      <script src="popup.js"></script>
+   </body>
+</html>

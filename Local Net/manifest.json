@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Local Net",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon1.png",
+      "48": "images/icon2.png",
+      "128": "images/icon3.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "images/icon1.png",
+    "48": "images/icon2.png",
+    "128": "images/icon3.png"
+  }
+}
