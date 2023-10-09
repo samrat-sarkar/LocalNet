@@ -4,6 +4,11 @@
 
 Simplify your internet login process with the LocalNet Chrome extension. This extension allows users to connect to their network with just one click, eliminating the need to enter login credentials every time.
 
+## Screenshots
+
+![App Screenshot](https://samrat-sarkar.github.io/LocalNet/screenshots/1.JPG)
+![App Screenshot](https://samrat-sarkar.github.io/LocalNet/screenshots/2.JPG)
+
 ## Features
 
 - **One-Click Login:** Connect to your network instantly with a single click.
