@@ -1,6 +1,6 @@
 # LocalNet Chrome Extension
 
-![Extension Logo](https://samrat-sarkar.github.io/LocalNet/Local%20Net/images/logo.png)
+![Extension Logo](https://samrat-sarkar.github.io/LocalNet/Local%20Net/images/icon1.png)
 
 Simplify your internet login process with the LocalNet Chrome extension. This extension allows users to connect to their network with just one click, eliminating the need to enter login credentials every time.
 
